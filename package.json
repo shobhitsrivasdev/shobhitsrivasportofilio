@@ -2,6 +2,7 @@
   "name": "developer-portfolio",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://shobhitsrivasdev.github.io/shobhitsrivasdev.github.io",
   "dependencies": {
     "@material-ui/core": "^4.12.2",
     "@material-ui/icons": "^4.11.2",
@@ -26,7 +27,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy" : "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
